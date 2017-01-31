@@ -9,7 +9,8 @@
   "author": "Sahat Yalkabov",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/nodemon app.js",
+    "dev": "./node_modules/.bin/nodemon app.js",
+    "start": "node app.js",
     "test": "mocha --reporter spec"
   },
   "dependencies": {
